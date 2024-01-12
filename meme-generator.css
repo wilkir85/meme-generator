@@ -1,0 +1,84 @@
+.memeTemp{
+	width: fit-content;
+	background-color: black;
+}
+
+.topText {
+            color:white;
+			position: relative;
+            text-align: center;
+			display:none;
+			top:2vh;
+}
+
+.botText {
+            color:white;
+            position: relative;
+            text-align: center;
+			display:none;
+			top:1vh;
+}
+
+.memeImage {
+	height: 30vh;
+	display:none
+}
+
+button {
+    color: white;
+    transition: color 1s;
+    transition: background-color 1s;
+    background-color: blue;
+    margin-left: 1100px;
+    border-radius: 1em;
+}
+
+button:hover {
+    color: blue;
+    background-color: white;
+    
+    
+}
+
+body {
+    background-color: white;
+    
+}
+input {
+    
+    width: 900px;
+    transition: background-color 2s;
+    
+    
+}
+
+
+input:hover{
+    background-color: lightgray;
+    
+    
+}
+
+h1 {
+    text-align: center;
+   background-color: blue;
+    font-style:oblique;
+    color: white;
+    
+}
+
+p {
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    background-color: blue;
+   
+}
+.table {
+    background-color: red;
+    
+}
+label {
+    color: white;
+    background-color: blue;
+}

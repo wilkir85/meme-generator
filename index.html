@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html><head>
+    <link rel="stylesheet" href="meme-generator.css">
+    </head>
+    
+    <body>
+        <div class="table">
+        <h1>Meme Generator</h1>
+        <p><b>Type below to create your own meme!</b></p>
+         <script src="meme.js"></script>
+         <label for="fname">Enter a URL:</label>
+         <input type="text" id="srcName" placeholder="Type URL For Image Here" name="srcName"><br><br>
+         <label for="fname">Enter Top Text:</label>
+         <input type="text" id="topText" placeholder="Type Text For Top Of Image Here" name="topText"><br><br>
+         <label for="fname">Enter Bottom Text:</label>
+         <input type="text" id="botText" placeholder="Type Text For Bottom Of Image Here" name="botText"><br><br>
+       <button id="btn" onclick="changeSrc()">Create Meme</button>
+        </div>
+       <p id="result"> </p>
+       <div id="memeTemp" class="memeTemp" onclick="deleteSelf(this)">
+            <div style="background-color:black;height:5vh">
+            <p class="topText"></p>
+            </div>
+          <img class="memeImage" src="" id="image">
+              <div style="background-color:black;height:4vh">
+                <p class="botText"></p>
+            </div>
+        </div>
+        <br> <br>
+        <script src="meme-generator.js"></script>
+    </body></html>
